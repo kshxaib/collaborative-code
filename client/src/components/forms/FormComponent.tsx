@@ -89,8 +89,8 @@ export default function FormComponent() {
 
     return (
         <div className="flex w-full max-w-md flex-col items-center justify-center gap-8 rounded-lg bg-gradient-to-br from-gray-900 to-gray-800 p-8 shadow-2xl">
-            <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-                CODE COLLAB
+            <h1 className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+            Collaborative compiler
             </h1>
             <form onSubmit={joinRoom} className="flex w-full flex-col gap-4">
                 <input

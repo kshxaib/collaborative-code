@@ -5,7 +5,8 @@ import { ChatMessage } from "@/types/chat"
 import { SocketEvent } from "@/types/socket"
 import { formatDate } from "@/utils/formateDate"
 import { FormEvent, useRef, useState } from "react"
-import { LuSendHorizonal } from "react-icons/lu"
+import { LuSendHorizontal } from "react-icons/lu";
+
 import { v4 as uuidV4 } from "uuid"
 import { motion } from "framer-motion"
 
@@ -51,7 +52,7 @@ export default function ChatInput() {
                 className="flex items-center justify-center bg-gradient-to-r from-purple-500 to-pink-500 p-3 text-white transition-colors duration-300 hover:from-purple-600 hover:to-pink-600"
                 type="submit"
             >
-                <LuSendHorizonal size={24} />
+                <LuSendHorizontal size={24}/>
             </motion.button>
         </form>
     )
